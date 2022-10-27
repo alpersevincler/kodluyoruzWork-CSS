@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Luna Pastanesi - En Lezzetli Pastalar">
+    <meta name="keywords" content="luna, pastane, pasta, kurabiye">
+    <meta name="author" content="Alper SEVINCLER">
+    <title>Luna Pastanesi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- ------------------ Header Start ------------------ -->
+
+    <div class="container">
+        <header>
+            <div class="logo">
+                <a href="index.html"><img src="img/logo-pastane.png" alt="logo"></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Ana Sayfa</a></li>
+                    <li><a href="about-us.html">Hakkımızda</a></li>
+                    <li><a href="products.html">Ürünlerimiz</a></li>
+                    <li><a href="contact.html" class="active">İletişim</a></li>
+                </ul>
+            </nav>
+        </header>
+<!-- ------------------- Header End ------------------ -->
+        <div class="contact">
+            <h1>Bize Ulaşın</h1>
+            <form>
+                <label for="isimSoyisim">İsim Soyisim:</label>
+                <input type="text" id="isimSoyisim" name="isimSoyisim" placeholder="Adınız Soyadınız...">
+            
+                <label for="mail">E-Mail:</label>
+                <input type="email" id="mail" name="mail" placeholder="E-Mail Adresiniz...">
+            
+                <label for="konu">Konu Başlığı:</label>
+                <select id="konu" name="konu">
+                  <option value="istek">İstek</option>
+                  <option value="oneri">Öneri</option>
+                  <option value="sikayet">Şikayet</option>
+                  <option value="diger">Diğer</option>
+                </select>
+            
+                <label for="mesaj">Mesajınız:</label>
+                <textarea id="mesaj" name="mesaj" placeholder="Mesajınız.." rows="11"></textarea>
+            	<!-- rows="11" attribute özelliği ile textarea ya 11 birimlik yükseklik verdik -->
+                <input type="submit" value="Gönder">
+              </form>
+        </div>
+    </div>
+
+
+</body>
+</html>
